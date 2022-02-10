@@ -17,4 +17,12 @@ for i in range(1,22):
     if i % 3 == 0 or i % 5 ==0:
         continue
     print(i)
-print("Bye-bye!")
+print("Bye-bye!\n")
+#
+# Example 3:  PASS provides a means to provide a "nul" command, thus doing NOTHING if a statement is True
+#             It's like "empty curly brackets" for Python that doesn't use this convention
+for i in range(4,16,2):
+    if (i%2!=0):
+        pass
+    else:
+        print(f"{i} is an EVEN NUMBER")

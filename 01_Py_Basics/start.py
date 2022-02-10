@@ -2,7 +2,7 @@
 print('\nHOLLOW WORLD\n')
 print("What's your name, dufus? ")
 my_name = input()
-print(f"\nNice to meed u, {my_name.title()}")
+print(f"\nNice to meet u, {my_name.title()}")
 print(f"The length of your name is {len(my_name.title())}")
 print("\nWhat's your age? ")
 my_age = input()
